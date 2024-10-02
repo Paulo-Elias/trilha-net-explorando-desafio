@@ -1,5 +1,8 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Net.Http.Headers;
+using System.Text;
 using DesafioProjetoHospedagem.Models;
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-Br");
 
 Console.OutputEncoding = Encoding.UTF8;
 
